@@ -1,0 +1,40 @@
+# Python and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments and editor state
+.venv/
+venv/
+env/
+.conda/
+.vscode/
+.idea/
+
+# Data and generated model artifacts
+/data/*
+!/data/README.md
+!/data/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+/checkpoints/
+/models/
+/results/*
+!/results/figures/
+
+# Temporary outputs and private guided work
+/tmp/
+/temp/
+/work/
+*.tmp
+*.log
+*Private*/
+*assignment*
+*Assignment*
